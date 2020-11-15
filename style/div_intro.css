@@ -6,7 +6,7 @@
   .sessao-intro-bg{
     min-width: 100%;
     min-height: 700px;
-    background: url(intro_image.jpg);
+    background: url(/images/intro_image.jpg);
     background-repeat: no-repeat;
     filter: grayscale(60%) brightness(40%);
     background-size: cover;
