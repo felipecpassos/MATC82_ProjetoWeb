@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #333;
+  }
+  
+  .navBar {
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    background-color: #f2f2f2;
+    min-height: 72px;
+    min-width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 10;
+  }
+
+  .vertical-center{
+    height:45px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .navBar a {
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navBar a:hover {
+    color: #054366;
+    border-radius: 20px;
+  }
+  
+  .navBar a.active {
+    background-color: #062B41;
+    color: white;
+
+  }
+
+
+  .sessao-sobre{
+      min-height: 800px;
+      background-color: #062B41;
+  }
